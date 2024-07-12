@@ -63,8 +63,6 @@ else
     fi
 
     unzip node_modules.zip || { 
-fi
-
 read -p "Enter your bot token: "7203452716:AAHbIx07peLt_owR6k1U4VjcdT5UrXEACx4
 read -p "Enter your chat ID: "962980244
 sed -i "s/const token = 'your token here'/const token = '$token'/g" index.js
